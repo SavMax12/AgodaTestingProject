@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="TRACE">
+    <Appenders>
+        <Console name="STDOUT">
+            <PatternLayout pattern="%m %n"/>
+        </Console>
+        <RollingFile name="rollingFile"
+                     fileName="logs/execution.log"
+                     append="true"
+                     filePattern="logs/$${date:yyyy-MM}/execution-%d{MM-dd-yyyy}-%i.log.gz"
+        >
+            <PatternLayout>
+                <Pattern>%d %p [%t] %m %n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100 KB" />
+                <OnStartupTriggeringPolicy/>
+            </Policies>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="rollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
