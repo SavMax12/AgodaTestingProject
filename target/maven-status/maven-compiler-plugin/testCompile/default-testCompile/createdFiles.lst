@@ -1,0 +1,13 @@
+runner\CucumberRunner.class
+stepdefs\pages\SignInPageStepDefs.class
+stepdefs\pages\HotelReservationPageStepDefs.class
+stepdefs\pages\RentOutHousingPageStepDefs.class
+stepdefs\pages\AgodaPageStepDefs.class
+stepdefs\pages\HotelInformationPageStepDefs.class
+stepdefs\pages\SignUpPageStepDefs.class
+stepdefs\pages\MyProfilePageStepDefs.class
+stepdefs\pages\CurrencyChangePageStepDefs.class
+stepdefs\pages\CurrentOffersPageStepDefs.class
+stepdefs\pages\LanguageChangePageStepDefs.class
+stepdefs\pages\ListOfHotelsPageStepDefs.class
+hooks\Hooks.class
