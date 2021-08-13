@@ -18,6 +18,7 @@ dist/
 
 # Package files
 *.jar
+*.iml
 
 # Maven
 target/
@@ -96,4 +97,8 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+/build/
+/.idea/
+/.allure/
 
