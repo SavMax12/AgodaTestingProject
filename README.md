@@ -4,8 +4,8 @@
 | Savchenko Maxim | [*agoda.com*](https://www.agoda.com/) |
 ***
 ## **Main classes/packages:**
-* [Hooks.java](AgodaTestingProject/src/test/java/hooks/Hooks.java) - class with methods that will be run before / after the start of .feature files
-* [CucumberRunner.java](AgodaTestingProject/src/test/java/runner/CucumberRunner.java) - the class that runs all tests
+* [Hooks.java](src/test/java/hooks/Hooks.java) - class with methods that will be run before / after the start of .feature files
+* [CucumberRunner.java](/src/test/java/runner/CucumberRunner.java) - the class that runs all tests
 * [elements](https://bitbucket.org/SavMax12/final/src/master/final/src/main/java/elements/) - a package with classes that store methods for interacting with Selenide elements
 * [enums](https://bitbucket.org/SavMax12/final/src/master/final/src/main/java/enums/) - package containing enumerated types
 * [pages](https://bitbucket.org/SavMax12/final/src/master/final/src/main/java/pages/) - a package containing classes that store page elements
