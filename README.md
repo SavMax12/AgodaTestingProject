@@ -5,13 +5,13 @@
 ***
 ## **Main classes/packages:**
 * [Hooks.java](src/test/java/hooks/Hooks.java) - class with methods that will be run before / after the start of .feature files
-* [CucumberRunner.java](src/test/java/runner/CucumberRunner.java) - the class that runs all tests
-* [elements](src/main/java/elements/) - a package with classes that store methods for interacting with Selenide elements
+* [CucumberRunner.java](src/test/java/runner/CucumberRunner.java) - class that runs all tests
+* [elements](src/main/java/elements/) - package with classes that store methods for interacting with Selenide elements
 * [enums](src/main/java/enums/) - package containing enumerated types
-* [pages](src/main/java/pages/) - a package containing classes that store page elements
-* [services](src/main/java/services/) - a package containing classes that store methods for interacting with page elements
+* [pages](src/main/java/pages/) - package containing classes that store page elements
+* [services](src/main/java/services/) - package containing classes that store methods for interacting with page elements
 * [utils](src/main/java/utils/) - package containing classes for working with logging
-* [stepdefs](src/test/java/stepdefs/pages/) - a package containing classes describing the stages of testing
+* [stepdefs](src/test/java/stepdefs/pages/) - package containing classes describing the stages of testing
 * [features](src/test/resources/features/) - package containing test scripts
 ***
 ## **Tools:**
