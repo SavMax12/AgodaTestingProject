@@ -1,7 +1,7 @@
 ##
-| Full name | Test site | Requirements | Advised working environment | Building with Maven | Reporting |
+| Full name | Test site | Requirements | Advised working environment | Building with Maven | Reporting
 |:----:|:----:
-| Savchenko Maxim | [*agoda.com*](https://www.agoda.com/) | Java JDK 8 | IntelliJ, Maven | mvn clean test | mvn allure:serve |
+| Savchenko Maxim | [*agoda.com*](https://www.agoda.com/) | Java JDK 8 | IntelliJ, Maven | mvn clean test | mvn allure:serve
 ***
 ## **Main classes/packages:**
 * [Hooks.java](src/test/java/hooks/Hooks.java) - class with methods that will be run before / after the start of .feature files
