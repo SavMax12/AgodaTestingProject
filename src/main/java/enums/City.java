@@ -2,9 +2,9 @@ package enums;
 
 public enum City {
 
-    ISTANBUL("Стамб"),
-    KYOTO("Киото"),
-    DUBAI("Дубаи");
+    ISTANBUL("Istan"),
+    KYOTO("Kyot"),
+    DUBAI("Duba");
 
     private final String cityName;
 

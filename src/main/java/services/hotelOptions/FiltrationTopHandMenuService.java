@@ -60,8 +60,8 @@ public class FiltrationTopHandMenuService {
         return listOfHotelsPage.getIsListOfHotelsPage().isVisible();
     }
 
-    public void priceShouldNotHave() {
+    public boolean priceGreaterThanZeroIsVisible() {
         Logger.info("Price should not have on the ListOfHotelsPage");
-        listOfHotelsPage.getInputPrice().shouldNotHave("0");
+        return listOfHotelsPage.getInputPrice().isVisible();
     }
 }

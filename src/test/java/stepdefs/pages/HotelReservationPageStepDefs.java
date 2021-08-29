@@ -30,7 +30,7 @@ public class HotelReservationPageStepDefs {
 
     @And("specify room preferences")
     public void specifyRoomPreferences() {
-        hotelReservationService.radioRequestsOfRoom(RequestsRoom.NON_SMOKING_ROOM);
+        hotelReservationService.radioRequestsOfRoom(RequestsRoom.LARGE_BED);
     }
 
     @And("specify arrival date")

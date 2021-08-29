@@ -7,13 +7,13 @@ import org.openqa.selenium.By;
 public class RentOutHousingPage {
 
     private final Button placeHousing = new Button(By.id("startHostingBtn"));
-    private final Button privateHousing = new Button(By.xpath("//*[@data-element-name='property-wizard-property-type-select-button']"));
-    private final Radio apartments = new Radio(By.xpath("//*[@id='root']/div/div/div/div/div/form/div[1]/div/div/div/div/div[1]/label/div/span"));
-    private final Radio villa = new Radio(By.xpath("//*[@id='root']/div/div/div/div/div/form/div[1]/div/div/div/div/div[2]/label/div/span"));
-    private final Radio botel = new Radio(By.xpath("//*[@id='root']/div/div/div/div/div/form/div[1]/div/div/div/div/div[3]/label/div/span"));
-    private final Radio chalet = new Radio(By.xpath("//*[@id='root']/div/div/div/div/div/form/div[1]/div/div/div/div/div[4]/label/div/span"));
-    private final Radio vacationHome = new Radio(By.xpath("//*[@id='root']/div/div/div/div/div/form/div[1]/div/div/div/div/div[5]/label/div/span"));
-    private final Radio familyHotel = new Radio(By.xpath("//*[@id='root']/div/div/div/div/div/form/div[1]/div/div/div/div/div[6]/label/div/span"));
+    private final Button privateHousing = new Button(By.xpath("//button[@value='1']"));
+    private final Radio apartments = new Radio(By.xpath("//input[@value='29']"));
+    private final Radio villa = new Radio(By.xpath("//input[@value='30']"));
+    private final Radio botel = new Radio(By.xpath("//input[@value='102']"));
+    private final Radio chalet = new Radio(By.xpath("//input[@value='106']"));
+    private final Radio vacationHome = new Radio(By.xpath("//input[@value='107']"));
+    private final Radio familyHotel = new Radio(By.xpath("//input[@value='108']"));
     private final Button numberOfObjects = new Button(By.id("plus-button-noOfProperties"));
     private final Radio oneAddress = new Radio(By.xpath("//*[@value='SAME']"));
     private final Radio differentAddresses = new Radio(By.xpath("//*[@value='DIFFERENT']"));

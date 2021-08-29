@@ -82,9 +82,9 @@ public class ListOfHotelsPageStepDefs {
         assertTrue(filtrationTopHandMenuService.listOfHotelsPageIsVisible());
     }
 
-    @Then("check that the price value is not exactly null")
+    @Then("check that the price value is greater than zero")
     public void checkThatThePriceValueIsNotExactlyNull() {
-        filtrationTopHandMenuService.priceShouldNotHave();
+        assertTrue(filtrationTopHandMenuService.priceGreaterThanZeroIsVisible());
     }
 
     @When("click on the Your budget button")

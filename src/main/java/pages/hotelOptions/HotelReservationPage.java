@@ -11,10 +11,10 @@ public class HotelReservationPage {
     private final Input phoneNumber = new Input(By.id("phoneNumber"));
     private final Selector country = new Selector(By.id("countryId"));
     private final Checkbox bookingForAnotherPerson = new Checkbox(By.xpath("//*[@class='sc-AxgMl eLXIsL sc-fzoNJl hZYxRe']"));
-    private final Radio nonSmokingRoom = new Radio(By.xpath("//*[@class='Radio__radioIcon--11Vjw']"));
-    private final Radio smokingRoom = new Radio(By.xpath("//*[@id='SiteContent']/div/div[1]/div[3]/div/div[3]/div[2]/label[2]"));
-    private final Radio largeBed = new Radio(By.xpath("//*[@id='SiteContent']/div/div[1]/div[3]/div/div[3]/div[2]/label[3]/span"));
-    private final Radio twoSingleBeds = new Radio(By.xpath("//*[@id='SiteContent']/div/div[1]/div[3]/div/div[3]/div[2]/label[4]"));
+    private final Radio nonSmokingRoom = new Radio(By.xpath("//input[@data-element-name='mob-bf-non-smoking-preference']/following-sibling::span"));
+    private final Radio smokingRoom = new Radio(By.xpath("//input[@data-element-name='mob-bf-smoking-preference']/following-sibling::span"));
+    private final Radio largeBed = new Radio(By.xpath("//input[@data-element-name='mob-bf-king-bed-type-preference']/following-sibling::span"));
+    private final Radio twoSingleBeds = new Radio(By.xpath("//input[@data-element-name='mob-bf-twin-bed-type-preference']/following-sibling::span"));
     private final Selector arrivalTime = new Selector(By.id("arrivalTime"));
     private final Button nextPage = new Button(By.xpath("//*[@type='submit']"));
     private final Button isCardPage = new Button(By.xpath("//*[@class='sc-AxjAm dGLvOm']"));

@@ -11,7 +11,7 @@ Feature: FiltrationTopHandMenu
   Scenario:
     When click on the Your budget button
     And set the price by dragging the sliders
-    Then check that the price value is not exactly null
+    Then check that the price value is greater than zero
 
   Scenario:
     When click on the Stars button
