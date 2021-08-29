@@ -3,6 +3,10 @@
 |:----:|:----:|:----:|:----:|:----:|:----:
 | Savchenko Maxim | [*agoda.com*](https://www.agoda.com/) | Java JDK 8 | IntelliJ, Maven | mvn clean test | mvn allure:serve |
 ***
+## Test Subject<br/>
+I've picked [*agoda.com*](https://www.agoda.com/) as a test subject for no particular reason. 
+It's a large site and has variety of features that we can play around with.
+***
 ## **Main classes/packages:**
 * [Hooks.java](src/test/java/hooks/Hooks.java) - class with methods that will be run before / after the start of .feature files
 * [CucumberRunner.java](src/test/java/runner/CucumberRunner.java) - class that runs all tests
@@ -42,4 +46,5 @@ The project can be built by executing the following command from project root fo
 The report can be built by executing the following command from project root folder:
 <br/>mvn allure:serve
 ***
+## Screenshots:
 ![allure](/Screenshot_164.jpg)
